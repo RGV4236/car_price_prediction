@@ -11,6 +11,7 @@ import streamlit as st
 
 #loading the saved model
 loaded_model = pickle.load(open('C:/Users/gowri/OneDrive/Desktop/model/trained_model_lass.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model_lass.sav', 'rb'))
 
 
 #creating a function for prediction
